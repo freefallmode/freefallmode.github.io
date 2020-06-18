@@ -24,7 +24,6 @@
     <label>Loan Repayment Breakdown:</label><br><br>
     <textarea name="text" rows="8" cols="50" wrap="soft" id="tax"></textarea>
 </section>
-
 <script src="script.js"></script>
 </body>
 </html>
