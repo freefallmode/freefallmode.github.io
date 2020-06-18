@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Tax Breakdown & Calculator</title>
+  <title>Canterbury Savings Pool - Loan Calculator</title>
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
   <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
