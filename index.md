@@ -12,7 +12,7 @@
   <br>
   <br>
   <section>
-    <label>Amount Required From Savings Pool:</label><br>
+    <label>Amount Required from Savings Pool:</label><br>
     <label>$</label><input type="text" id = "savings" /> <br><br>
     <label>Reciprocity Points:</label><br>
     <label></label><input type="text" id = "points" /> <br><br>
