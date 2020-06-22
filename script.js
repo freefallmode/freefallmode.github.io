@@ -16,7 +16,7 @@ var calculatePaybackTime = function() {
       pointsBalance = pointsBalance - loanBalance;
       months++;
     }
-  return [months];
+ document.points-payback-time = months;
 }
 
 window.onload = function () {
