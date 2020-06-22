@@ -9,7 +9,7 @@ var calculatePaybackTime = function() {
   var repaymentAmount = parseFloat(document.getElementById("repayment-amount").value);
   var loanBalance = savingsAmount - loanAmount;
   var pointsBalance = savingsPoints;
-    if (repaymentAmount == '') repaymentAmount = 100;
+    if (repaymentAmount == 0) repaymentAmount = 100;
   console.log(repaymentAmount);
    var months =  0;
     while (loanBalance < 0) {
