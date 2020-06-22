@@ -16,7 +16,7 @@
     <label>$</label><input type="text" id = "savings-amount" /> <br><br>
     <label>Reciprocity Points Balance (latest TASP monthly report page 10):</label><br>
     <label></label><input type="text" id = "savings-points" /> <br><br>
-    <label>How much do you want to borrow? (including your savings in the pool):</label><br>
+    <label>How much do you need to borrow? (including your savings in the pool):</label><br>
     <label>$</label><input type="text" id = "loan-amount" /> <br><br>
     <label>How much can you pay back each month?:</label><br>
     <label>$</label><input type="text" id = "repayment-amount" /> <br><br>
