@@ -12,13 +12,13 @@
   <br>
   <br>
   <section>
-    <label>Amount Required from Savings Pool:</label><br>
+    <label>Account Balance (latest TASP monthly report page 8 & 9):</label><br>
     <label>$</label><input type="text" id = "savings" /> <br><br>
-    <label>Reciprocity Points:</label><br>
+    <label>Dollar Months Balance (latest TASP monthly report page 10):</label><br>
     <label></label><input type="text" id = "points" /> <br><br>
-    <label>Loan Duration:</label><br>
-    <label></label><input type="text" id = "duration" /> <br><br>
-    <label>Repayment Amount per Month:</label><br>
+    <label>How much do you want to borrow (including your savings in the pool)?:</label><br>
+    <label>$</label><input type="text" id = "duration" /> <br><br>
+    <label>Amount you can pay back each month:</label><br>
     <label>$</label><input type="text" id = "other" /> <br><br>
     <input type="button" value="Calculate" name="calculate" id = "calculate" /> <br><br>
     <label>Loan Repayment Breakdown:</label><br><br>
