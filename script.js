@@ -92,7 +92,7 @@ var updatePaybackText = function() {
 	}
 	if (months == 0) {
 		monthText = '';
-	} else if (months == 1) {
+	} elseif (months == 1) {
 		monthText = '1 month';
 	} else {
 		monthText = months + ' months';
