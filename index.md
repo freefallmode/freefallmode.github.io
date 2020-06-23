@@ -12,14 +12,6 @@
   <br>
   <br>
   <section>
-<!--   <form>
-<input type="range" name="foo" min="0" max="100">
-<output for="foo" onforminput="value = foo.valueAsNumber;"></output>
-	</form> -->
-<!--   	<div class="slidecontainerdb">
-		<input type="range" min="1" max="10000" value="1000" class="sliderdb" id="savings-amount-slider">
-	</div> -->
-	
     <label>Savings Balance (latest TASP monthly report page 8 & 9):</label><br>
     <label>$</label><input type="number" step='20' min='0' id = "savings-amount" required/> <br><br>
     <label>Reciprocity Points Balance (latest TASP monthly report page 10):</label><br>
@@ -32,7 +24,7 @@
     <!--<input type="button" value="Calculate" name="calculate" id = "calculate"/> <br><br>-->
     <label>Time Taken to Repay Loan:   </label><h3 id='payback-time'></h3>
 	<div class="slidecontainer">
-		<input type="range" min="1" max="120" value="12" class="slider" id="myRange">
+		<input type="range" min="0" max="120" step='1' value="12" class="slider" id="myRange">
 	</div>
 	<br><br>
 	<label>Final Savings Balance:</label>
