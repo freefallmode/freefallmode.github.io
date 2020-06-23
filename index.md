@@ -8,7 +8,10 @@
 </head>
 
 <body>
-<header><h1>Canterbury Savings Pool - Loan Calculator</h1></header>
+  <header>
+	<h1>Canterbury Savings Pool</h1>
+	<h2>Loan Calculator</h2>
+  </header>
   <br>
   <br>
   <section>
