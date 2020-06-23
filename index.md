@@ -35,9 +35,9 @@
 		<input type="range" min="1" max="120" value="12" class="slider" id="myRange">
 	</div>
 	<p id='payback-time'></p><br><br>
-	<label>Final Savings Balance:</label><br><br>
+	<label>Final Savings Balance:</label>
 	<label id='savings-amount-final'></label><br><br>
-	<label>Final Points Balance:</label><br><br>
+	<label>Final Points Balance:</label>
 	<label id='savings-points-final'></label><br><br>
   </section>
   <script src="script.js"></script>
