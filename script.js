@@ -40,7 +40,7 @@ var updatePaybackTime = function() {
 	var repaymentAmount = parseFloat(document.getElementById("repayment-amount").value);
 	var loanBalance = savingsAmount - loanAmount;
 	var pointsBalance = savingsPoints;
-	if (repaymentAmount == '' | repaymentAmount < 10) {
+	if (repaymentAmount == '' | repaymentAmount < 1) {
 		repaymentAmount = 10
 		document.getElementById("repayment-amount").value = repaymentAmount;
 	}
