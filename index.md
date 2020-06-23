@@ -30,11 +30,11 @@
     <label>How much to pay back each month?:</label><br>
     <label>$</label><input type="number" step='20' min='0' id = "repayment-amount" required/> <br><br>
     <!--<input type="button" value="Calculate" name="calculate" id = "calculate"/> <br><br>-->
-    <label>Time Taken to Repay Loan:</label><br><br>
+    <label>Time Taken to Repay Loan:   </label><p id='payback-time'></p><br>
 	<div class="slidecontainer">
 		<input type="range" min="1" max="120" value="12" class="slider" id="myRange">
 	</div>
-	<p id='payback-time'></p><br><br>
+	<br><br>
 	<label>Final Savings Balance:</label>
 	<label id='savings-amount-final'></label><br><br>
 	<label>Final Points Balance:</label>
