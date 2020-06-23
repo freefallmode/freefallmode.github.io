@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Canterbury Savings Pool - Loan Calculator</title>
+  <h1>Canterbury Savings Pool - Loan Calculator</h1>
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
 </head>
