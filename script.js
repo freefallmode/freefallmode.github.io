@@ -35,7 +35,7 @@ var onchangeRepaymentAmount = function() {
 	var id = document.getElementById("repayment-amount");
 	var v = parseFloat(id.value);
 	if (v == '' | v < 1) {
-		v = 10
+		v = 5;
 		id.value = v;
 	}
 }
