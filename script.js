@@ -7,8 +7,8 @@ var repaymentAmountPerMonth;
 var onchangeSavingsAmount = function() {
 	var id = document.getElementById("savings-amount");
 	var v = parseFloat(id.value);
-	if (v == '' | v < 10) {
-		v = 10
+	if (v == '' | v < 0) {
+		v = 0
 		id.value = v;
 	}
 }
@@ -82,7 +82,7 @@ var updatePaybackTime = function() {
 	var loanBalance = savingsAmount - loanAmount;
 	var pointsBalance = savingsPoints;
 	var months =  0;
-    while (loanBalance < 0) {
+    while (loanBalance < 0 || pointsBalance < 1) {
 		loanBalance = loanBalance + repaymentAmountPerMonth;
 		pointsBalance = pointsBalance + loanBalance;
 		months++;
